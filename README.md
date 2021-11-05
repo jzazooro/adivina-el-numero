@@ -8,7 +8,7 @@ El diagrama de flujo que tenemos en nuestro codigo es el siguiente:
 
 ![diagrama de flujo adivine el numero](/jzazooro/divina-el-numero/2.2DIAGRAMADEFLUJOADIVINAELNUMERO.jpg)
 
-```import random
+``import random
 numero=random.randint(0,99)
 intento=int(input("Por favor introduzca un numero entre 0 y 99: "))
 intentosrealizados=0
@@ -29,4 +29,4 @@ if intento == numero:
     print("¡Has ganado!")
     intentosrealizados=intentosrealizados+1
     print("el numero era el", numero)
-    print("has necesitado", intentosrealizados, "intentos")```
+    print("has necesitado", intentosrealizados, "intentos")``
